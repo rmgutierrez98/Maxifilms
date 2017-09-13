@@ -486,10 +486,8 @@ h1, p{
 @media only screen and (max-width: 768px) {
 	body {
 		padding-top:70px;
+		background:#000;
 	}
-
-
-	body {background:#000;}
  
 	header nav {
 		width: 60%;
