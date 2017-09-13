@@ -80,11 +80,11 @@ h4{
 	font-size: 30px;
 	margin-top: 15px;
 	font-family: 'Montserrat', sans-serif;
-	color: #fff;
+	color: #000;
 }
 
 h1, p{
-	color: #fff;
+	color: #000;
 }
 
 .clase img{
@@ -532,7 +532,12 @@ h1, p{
 	text-align: left;
 	font-size: 30px;
 	margin-top: 5%;
+	color: #fff;
 	}
+
+	h1, p{
+	color: #fff;
+}
 	.menu_phone {
 		display:block;
 		width:100%;
