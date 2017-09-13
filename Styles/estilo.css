@@ -527,6 +527,7 @@ h1, p{
 		position: fixed;
 		right:100%;
 		margin: 0;
+		overflow: scroll;
 		z-index:3;
 	}
  
