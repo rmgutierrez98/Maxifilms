@@ -340,75 +340,73 @@ h1, p{
 }
 
 /*/cuatro/*/
-.cuatro{
+.dos{
 	position: relative;
 	margin-top: 60px;
 	overflow: hidden;
 }
-.cuatro img{
-	transition: .4s linear;
-	transition-delay: .4 linear
-}
-.cuatro:hover img{
-	opacity: 0;
-	transform: translateX(0px) translateY(0px) rotate(300deg) scale(0.2);
-}
-.cuatro:hover div{
+.dos:hover div{
 	opacity: 1;
+}
+.dos img{
+	transition: .2s linear;
+}
+.dos:hover img{
+	transform: scale(1.2);
+}
+.dos:hover div h4{
 	transform: translateY(0);
 }
-.cuatro:hover div h4{
-	transform: translateY(0);
-}
-.cuatro:hover div p{
-	transform: translateY(0);
-}
-.cuatro:hover div a{
+.dos:hover div p{
 	transform: translateY(0);
 	opacity: 1;
 }
-.cuatro div {
+.dos:hover div a{
+	opacity: 1;
+	transform: translateY(0);
+}
+.dos div {
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(122,186,39,0.7);
+	background-color:rgba(0,0,0,0.5);
 	text-align: center;
-	transition: .6s linear;
 	opacity: 0;
+	transition: .1s linear;
 }
-.cuatro div h4{
+.dos div h4{
 	text-align: center;
-	color: #000;
+	color: #fff;
 	padding: 15px 0;
 	font-size: 24px;
-	margin-top: 20px;
-	transition: .5s linear;
-	transition-delay: .5s;
-	transform: translateY(-160px); 
+	margin-top: 30px;
+	transform: translateY(-150px);
+	transition: .1s linear;
+	background-color:rgba(0,0,0,0.8);
 }
 
-.cuatro div p{
-	color: #000;
+.dos div p{
+	color: white;
 	text-align: justify;
 	padding:0 20px;
-	margin-top: 10px;
-	transition: .6s linear;
-	transition-delay: .6s;
-	transform: translateY(-160px); 
+	margin-top: 20px;
+	transform: translateX(350px) translateY(-190px) rotate(50deg);
+	opacity: 0;
+	transition: .8s linear;
 }
-.cuatro div a{
+.dos div a{
 	text-decoration: none;
 	color: white;
-	background-color: rgba(0,0,0,0.8);
-	padding: 10px 10px;
+	background-color: rgba(0,0,0,0.7);
 	display: inline-block;
 	margin-top: 20px;
-	transition: .6s linear;
-	transition-delay: .6s;
 	opacity: 0;
-	transform: translateY(-160px); 
+	padding: 10px 10px;
+	font-size: 15px;	
+	transition: .4s linear;
+	transform: translateY(-350px);
 }
 /*/cinco /*/
 
@@ -695,31 +693,34 @@ h1, p{
 	}
 
 	/*/cuatro/*/
-	.cuatro img{
-	opacity: 0;
-	transform: translateX(0px) translateY(0px) rotate(300deg) scale(0.2);
+	.dos div{
+	opacity: 1;
 	}
-	.cuatro div{
-		opacity: 1;
-		transform: translateY(0);
+	.dos img{
+		transition: .2s linear;
+		opacity: 0.8;
 	}
-	.cuatro div h4{
-		transform: translateY(0);
-		display: none;
+	.dos img{
+		transform: scale(1.2);
 	}
-	.cuatro div p{
+	.dos div h4{
 		transform: translateY(0);
 		display: none;
 	}
-	.cuatro div a{
+	.dos div p{
 		transform: translateY(0);
 		opacity: 1;
+		display: none;
+	}
+	.dos div a{
+		opacity: 1;
+		transform: translateY(0);
 	}
 
-	.cuatro div a{
+	.dos div a{
 	padding: 2% 40%;
 	font-size: 15px;	
-	margin-top:120%; 
+	margin-top:110%; 
 	}
 
 	/*cinco*/
